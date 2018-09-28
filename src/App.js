@@ -7,10 +7,8 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <h2 class="ui center aligned icon header">
-            <i class="circular users icon" />
-            SOS Navy Dispatch
-          </h2>
+          <img src={logo} className="App-logo" alt="logo" />
+          <h1 className="App-title">Super secret page...do not read</h1>
         </header>
       </div>
     );
